@@ -6,35 +6,145 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/main.css">
-  <title>17-dars</title>
+  <title>24-l-webp-img</title>
 </head>
 
 <body>
   
-  <header class="site__header">
+  <header class="site-header">
     <div class="container">
-      <div class="site__header__inner"></div>
+      <div class="site-header__inner"></div>
     </div>
   </header>
-
-  <main class="site__main">
-
+  
+  <main class="site-main">
+    
     <section class="hero">
       <div class="container">
-        <div class="hero__inner"></div>
+        <div class="hero__inner">
+          
+          
+          <!-- <h1 class="hero__title .visually-hidden ">  
+            
+            24-lesson
+            
+          </h1> -->
+          
+          
+          
+          
+          
+          
+          <picture>
+            
+            <!-- WebP -->
+            
+            <source type="image/webp"
+            media="(max-width: 425px)"
+            srcset="./images/coffee-mobile.webp 1x ,./images/coffee-mobile@2x.webp 2x"
+            >
+            
+            <source type="image/webp"
+            media="(max-width: 768px)"
+            srcset="./images/coffee-tablet.webp 1x ,./images/coffee-tablet@2x.webp 2x"
+            >
+            
+            <source type="image/webp"
+            srcset="./images/coffee-desktop.webp 1x ,./images/coffee-desktop@2x.webp 2x"
+            >
+            
+            <!-- Jpeg Default -->
+            
+            <source
+            media="(max-width: 425px)"
+            srcset="./images/coffee-mobile.jpg 1x ,./images/coffee-mobile@2x.jpg 2x"
+            >
+            
+            <source
+            media="(max-width: 768px)"
+            srcset="./images/coffee-tablet.jpg 1x ,./images/coffee-tablet@2x.jpg 2x"
+            >
+            
+            
+            <img src="./images/coffee.jpg"
+            srcset="./images/coffee.jpg 1x ,./images/coffee@2x.jpg 2x "
+            width="445"
+            height="474"
+            alt="A cap of coffee">
+            
+          </picture>
+          
+
+          <hr>
+
+
+
+          <picture>
+            <!-- webp Default -->
+
+            <source type="img/webp"
+            media="(max-width: 425px)"
+            srcset="./images/bar-man-desktop.webp 1x , ./images/bar-man-desktop@2x.webp 2x"
+            
+            
+            >
+
+            <source type="img/webp"
+            media="(max-width: 768px)"
+            srcset="./images/bar-man-desktop.webp 1x , ./images/bar-man-desktop@2x.webp 2x"
+            
+            
+            >
+
+            <!-- jpeg Default -->
+
+            <source 
+            media="(max-width: 425px)"
+            srcset="./images/bar-man-desktop.jpg 1x , ./images/bar-man-desktop@2x.jpg 2x"
+            
+            >
+
+            <source 
+            media="(max-width: 768px)"
+            srcset="./images/bar-man-desktop.jpg 1x , ./images/bar-man-desktop@2x.jpg 2x"
+            
+            >
+
+
+            <img src="./images/bar-man-desktop.jpg" 
+          srcset="./images/bar-man-desktop.jpg 1x , ./images/bar-man-desktop@2x.jpg 2x"
+          width="445"
+          height="520"
+          alt="bar-man is making a cup of coffee">
+          </picture>
+          
+        </div>
+        
+        
       </div>
+      
+      
     </section>
-
-
+    
+    
   </main>
-
-
-  <footer class="site__footer container">
-    <div class="site__footer__inner"></div>
+  
+  
+  <footer class="site__footer ">
+    
+    <div class="container">
+      
+      <div class="site__footer__inner">
+        
+        
+      </div>
+      
+    </div>
+    
   </footer>
   
-
-
+  
+  
   
 </body>
 
